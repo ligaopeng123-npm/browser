@@ -13,8 +13,8 @@ export type BrowserConfig = {
     minimumVersion?: number;
     upgradeLink?: string;
     choose?: {
-        [ChooseEnum.nextTime]: boolean;
-        [ChooseEnum.never]: boolean;
+        [ChooseEnum.nextTime]?: boolean;
+        [ChooseEnum.never]?: boolean;
     }
 };
 /**
