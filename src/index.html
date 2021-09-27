@@ -6,7 +6,9 @@
 </head>
 <body>
 <script type="module">
-	import {sum} from './index.js';
+    import {checkBrowser} from './index.js';
+
+    checkBrowser('appkey', {chrome: {minimumVersion: 95}})
 
 </script>
 </body>
