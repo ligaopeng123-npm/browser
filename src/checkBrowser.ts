@@ -12,11 +12,19 @@ import {assignDeep} from "@gaopeng123/utils";
 const defaultOptions = {
     chrome: {
         minimumVersion: 80,
-        upgradeLink: 'http://chrome.illzjp.cn/dl.html'
+        upgradeLink: 'http://chrome.illzjp.cn/dl.html',
+        choose: {
+            [ChooseEnum.nextTime]: true, // 是否提示下次再说
+            [ChooseEnum.never]: true, // 是否提示不想更新
+        }
     },
     firefox: {
         minimumVersion: 80,
-        upgradeLink: 'https://download-ssl.firefox.com.cn/releases-sha2/stub/official/zh-CN/Firefox-latest.exe'
+        upgradeLink: 'https://download-ssl.firefox.com.cn/releases-sha2/stub/official/zh-CN/Firefox-latest.exe',
+        choose: {
+            [ChooseEnum.nextTime]: true,
+            [ChooseEnum.never]: true,
+        }
     }
 };
 const checkBrowser = (appKey: string, options?: Options) => {

@@ -8,7 +8,15 @@
 <script type="module">
     import {checkBrowser} from './index.js';
 
-    checkBrowser('appkey', {chrome: {minimumVersion: 95}})
+    checkBrowser('appkey', {
+        chrome: {
+            minimumVersion: 95,
+            choose: {
+                never: true,
+                nextTime: true
+            }
+        }
+    })
 
 </script>
 </body>
