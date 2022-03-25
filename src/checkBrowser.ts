@@ -7,7 +7,7 @@ import {ChooseEnum, Options} from "./typing";
 import browser, {version} from "./browser";
 import {lastChoose} from "./localCache";
 import {createDom} from "./createDom";
-import {assignDeep} from "@gaopeng123/utils";
+import {assignDeep} from "@gaopeng123/utils.object";
 
 const defaultOptions = {
     chrome: {

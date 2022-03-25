@@ -63,6 +63,8 @@
         "webpack-dev-server": "^4.0.0"
     },
     "dependencies": {
-        "@gaopeng123/utils": "^0.1.32"
+        "@gaopeng123/utils.object": "^0.4.9",
+        "@gaopeng123/utils.string": "^0.4.12",
+        "@gaopeng123/utils.types": "^0.4.7"
     }
 }

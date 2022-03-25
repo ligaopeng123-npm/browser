@@ -2,7 +2,7 @@
  * 创建提示dom
  */
 import {BrowserConfig, ChooseEnum} from "./typing";
-import {uuid} from "@gaopeng123/utils";
+import {uuid} from "@gaopeng123/utils.string";
 import {setLocalStorage} from "./localCache";
 
 export const createDom = (_appKey: string, options: BrowserConfig) => {

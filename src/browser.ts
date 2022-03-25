@@ -9,7 +9,7 @@
  * @版权所有: pgli
  *
  **********************************************************************/
-import {chromeVersion, isChrome, isFirefox, firefoxVersion} from "@gaopeng123/utils";
+import {chromeVersion, isChrome, isFirefox, firefoxVersion} from "@gaopeng123/utils.types";
 import {CheckBrowsers} from "./typing";
 
 /**
